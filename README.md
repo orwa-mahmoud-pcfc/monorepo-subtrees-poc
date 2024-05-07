@@ -53,3 +53,10 @@ git subtree push --prefix=repo2 https://github.com/orwa-mahmoud-pcfc/repo2.git m
 - `main` is the branch you are pushing to.
 
 
+## How we made it 
+
+- initialize the monorepo with git and make your first commit (add readme for example)
+- use the follwoing command to add subtree
+```bash
+git subtree add --prefix=repo1 https://github.com/orwa-mahmoud-pcfc/repo1.git main
+```
